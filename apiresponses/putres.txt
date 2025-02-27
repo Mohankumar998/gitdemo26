@@ -1,0 +1,22 @@
+{
+  "data": {
+    "empNumber": 167,
+    "lastName": "KK",
+    "firstName": "Prathap",
+    "middleName": "abc",
+    "employeeId": "232323",
+    "otherId": "",
+    "drivingLicenseNo": "577564",
+    "drivingLicenseExpiredDate": null,
+    "gender": 1,
+    "maritalStatus": "",
+    "birthday": null,
+    "terminationId": null,
+    "nationality": {
+      "id": null,
+      "name": null
+    }
+  },
+  "meta": [],
+  "rels": []
+}
