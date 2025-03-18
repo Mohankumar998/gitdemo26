@@ -16,7 +16,7 @@ test.describe("Verify the login functionality", async () => {
     const cred = ["Admin", "admin123"]
     await page.locator("input[name='username']").fill(cred[0])
     await page.locator("input[type='password']").pressSequentially(cred[1], { delay: 1000 })
-    await page.locator("button[type='submit']").click()
+    await page.getByRole('button',{name:/Login/i}).click()
 
     await expect(page).toHaveURL('https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index')
 

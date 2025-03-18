@@ -1,0 +1,34 @@
+1. filter() - The filter() method in JavaScript creates a new array filled with elements that pass a specific test implemented by a provided function. 
+It doesn’t change the original array, but instead, returns a new array with the elements that meet the condition.
+syntax - array.filter(callback(currentValue, index, array))
+
+// filter()
+
+
+//Filtering out even numbers from an array
+let numbers = [1, 2, 3, 4, 5, 6];
+let evenNumbers = numbers.filter(num => num % 2 === 0);
+// console.log(evenNumbers); // Output: [2, 4, 6]
+
+
+// Filtering objects based on a condition
+
+let people = [
+    { name: "Alice", age: 25 },
+    { name: "Bob", age: 30 },
+    { name: "Charlie", age: 35 },
+    { name: "David", age: 20 }
+  ];
+  
+  let adults = people.filter(person => person.age >= 30);
+  console.log(adults); 
+  // Output: [ { name: 'Bob', age: 30 }, { name: 'Charlie', age: 35 } ]
+
+  // Removing falsy values from an array
+  let values = [0, "Hello", false, undefined, 42, "", null];
+let truthyValues = values.filter(Boolean);
+console.log(truthyValues); // Output: ["Hello", 42]
+
+2. 
+
+

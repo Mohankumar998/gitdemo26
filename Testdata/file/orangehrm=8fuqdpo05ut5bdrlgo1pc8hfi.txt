@@ -1,0 +1,9 @@
+orangehrm=8fuqdpo05ut5bdrlgo1pc8hfir
+https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/core/validation/unique?value=0505777&entityName=Employee&attributeName=employeeId
+https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/pim/employees?limit=50&offset=0&model=detailed&includeEmployees=onlyCurrent&sortField=employee.firstName&sortOrder=ASC
+
+
+
+
+
+https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/pim/employees?limit=50&offset=0&model=detailed&nameOrId=123445+34&includeEmployees=onlyCurrent&sortField=employee.firstName&sortOrder=ASC

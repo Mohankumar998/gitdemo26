@@ -1,0 +1,5 @@
+Experienced Salesforce developer with 2 years of proven expertise in delivering  impactful solutions through both declarative and programmatic methods. Proficient in Apex, Aura components, and Lightning Web Components (LWC), specializing in Sales, Service and Experience  Cloud. Skilled in developing clean, efficient code and adept at troubleshooting complex issues to ensure robust performance.
+
+
+
+worked together on the Salesforce lighting Flows such as Record Triggered Flow, Schedule Flow, WorkFlows, Validation Rules, Apex triggers, Apex Batches, Schedulable jobs and Approval Process. 

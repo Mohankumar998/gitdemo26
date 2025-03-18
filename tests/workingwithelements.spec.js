@@ -284,7 +284,7 @@ const fs = require('fs')
 
 
 // Interviwew question 
-// test('working with links', async ({ page }) => {  
+// test('working with links', async ({ page }) => {     
 
 //     await page.goto('https://the-internet.herokuapp.com/windows')
 //     await page.click('//a[text() = "Click Here"]')
@@ -297,7 +297,7 @@ const fs = require('fs')
 //     console.log("Text on the new page", textvalue)
 
 //     await page.waitForTimeout(5000)
-// })
+// }) 
 
 
 // Tables ===============================================
@@ -354,16 +354,16 @@ const fs = require('fs')
 
 // uploading the multiple files
 
-test('working with uploading multiple file', async ({page}) => {  
+// test('working with uploading multiple file', async ({page}) => {  
 
-await page.goto('https://blueimp.github.io/jQuery-File-Upload/')
-await page.locator('//input[@type="file"]').setInputFiles(['./Testdata/file/Screenshot.png.png', './Testdata/file/Screenshot111.png'])
+// await page.goto('https://blueimp.github.io/jQuery-File-Upload/')
+// await page.locator('//input[@type="file"]').setInputFiles(['./Testdata/file/Screenshot.png.png', './Testdata/file/Screenshot111.png'])
 
-await expect(page.locator('p.name').nth(0)).toHaveText('Screenshot.png.png')
-await expect(page.locator('p.name').nth(1)).toHaveText('Screenshot111.png')
+// await expect(page.locator('p.name').nth(0)).toHaveText('Screenshot.png.png')
+// await expect(page.locator('p.name').nth(1)).toHaveText('Screenshot111.png')
 
-await page.waitForTimeout(5000)
-})
+// await page.waitForTimeout(5000)
+// })
 
 // Downloading the file ========================================
 
